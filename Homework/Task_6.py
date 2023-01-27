@@ -26,7 +26,8 @@ def wrong_number(ticket):
           print('Нужен шестизначный номер')
 
 
-wrong_number(ticket)
 happy_ticket(ticket)
+wrong_number(ticket)
+
 
  
