@@ -3,4 +3,18 @@
 # ребенок, если известно, что Петя и Сережа сделали одинаковое
 # количество журавликов, а Катя сделала в два раза больше журавликов,
 # чем Петя и Сережа вместе?
+# 6 -> 1 4 1
+# 24 -> 4 16 4
+# 60 -> 10 40 10
+
+origami_amount = int(input("Введите натуральное число: "))
+
+if origami_amount > 0:
+    origami_boys = origami_amount // 3
+    origami_Katya = origami_boys * 2
+    origami_Petya = origami_boys // 2
+    origami_Serg = origami_boys // 2
+    print(f'Петя сделал {origami_Petya} журавликов(ка), Сережа тоже - {origami_Serg}, Катя - {origami_Katya}')
+else:
+    print('Решения нет')
 
