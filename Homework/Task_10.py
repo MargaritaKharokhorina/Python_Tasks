@@ -7,8 +7,8 @@
 # 2
 
 coins = int(input("Введите количество монет: "))
-reshka = int(input("Сколько монет лежат решкой вверх: "))
-emblem = int(input("Сколько монет лежат гербом вверх: "))
+reshka = int(input("Введите, сколько монет лежат решкой вверх: "))
+emblem = int(input("Введите, сколько монет лежат гербом вверх: "))
 
 
 def reversal(coins, reshka, emblem): 
