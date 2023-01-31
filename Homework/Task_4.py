@@ -16,5 +16,5 @@ if origami_amount >= 6:
     origami_Serg = origami_boys // 2
     print(f'Петя сделал {origami_Petya} журавликов(ка), Сережа тоже - {origami_Serg}, Катя - {origami_Katya}')
 else:
-    print('Решения нет, количество журавликов жолжно быть от шести')
+    print('Решения нет, количество журавликов должно быть от шести')
 
