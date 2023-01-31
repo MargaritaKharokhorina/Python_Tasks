@@ -11,6 +11,8 @@ ticket = int(input('Введите номер билета: '))
 
 
 def happy_ticket(ticket):
+     if len(str(ticket)) != 6 or 6 < len(str(ticket)) < 6:
+          print('Нужен шестизначный номер')
      sum1 = 0
      sum2 = 0 
      if len(str(ticket)) == 6:
@@ -21,13 +23,10 @@ def happy_ticket(ticket):
         elif sum1 != sum2:
               print('Нет, это обычный билет. Но счастье все равно есть! :)') 
 
-def wrong_number(ticket):
-     if len(str(ticket)) != 6:
-          print('Нужен шестизначный номер')
-
 
 happy_ticket(ticket)
-wrong_number(ticket)
+
+
 
 
  
