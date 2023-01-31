@@ -9,7 +9,7 @@
 
 origami_amount = int(input("Введите натуральное число: "))
 
-if origami_amount > 0:
+if origami_amount >= 6:
     origami_boys = origami_amount // 3
     origami_Katya = origami_boys * 2
     origami_Petya = origami_boys // 2
