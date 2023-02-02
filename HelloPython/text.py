@@ -15,7 +15,7 @@ print(text[0])
 # print(text[len(text)])    #IndexError
 print(text[len(text)-1])    #к
 print(text[-5])             #б
-print(text[2:5])            #cъ
+print(text[2:5])            #ешь
 print(text[len(text)-2:])   #ок
 print(text[2:9])            #ешь еще
 print(text[6:-18])          #еще этих мягких
