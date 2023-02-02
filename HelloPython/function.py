@@ -8,6 +8,6 @@ def f(x):
     else:
         return
 
-arg = 1
-print(f(arg))
-print(type(f(arg)))
+#arg = 1
+#print(f(arg))
+#print(type(f(arg)))
