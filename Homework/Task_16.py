@@ -9,7 +9,7 @@
 
 import random
 
-n = int(input('Введите количество элементов в массиве: '))
+n = int(input('Введите количество элементов в списке: '))
 
 list = []
 for i in range(n):
