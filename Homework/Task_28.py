@@ -15,4 +15,4 @@ def sum(a, b):
     
 
 a, b = map(int, input('Введите два числа через пробел: ').split())
-print('Сумма чисел a и b -->', sum(a,b))
+print('Сумма чисел a и b -->', sum(a,b)) 
